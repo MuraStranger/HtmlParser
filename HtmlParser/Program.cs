@@ -13,6 +13,7 @@ namespace HtmlParser
             Console.WriteLine("Чтение и запись данных отраслей с сайта http://www.3klik.kz");
             ThreeClickKz.WriteAll();
             Console.WriteLine("Запись завершена.");
+            Console.ReadLine();
         }
     }
 }
